@@ -1,0 +1,42 @@
+
+.login {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+  }
+  
+  .lContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding: 5rem;
+    border: 1px solid rgba(255, 255, 255, 0.216);
+    background-color: rgba(56, 52, 52, 0.16);
+    box-shadow: 2rem white;
+    border-radius: 2rem;
+  }
+  
+  .lInput{
+    height: 30px;
+    padding: 10px;
+    border-radius: 1rem;
+  }
+  
+  .lButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .lButton:disabled{
+    background-color: #0071c28c;
+    cursor: not-allowed;
+  }
